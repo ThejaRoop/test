@@ -1,0 +1,27 @@
+git status
+
+git branch
+
+git clone 
+
+git add filename
+
+git commit -m any message
+
+git push orgin master
+
+generate token
+
+#create branch
+git branch prod-branch
+
+git checkout branchname
+
+git checkout -b branchname
+
+via ssh
+
+get merge conflicts
+
+
+

@@ -1,0 +1,34 @@
+#install
+apt install docker.io
+
+
+# Check the version 
+docker --version
+
+
+docker image COMMAND
+
+docker images
+
+#list Docker images and their associated running containers
+docker images ps
+
+
+docker run -d -p 8080:8080 in28min/hello-world-nodejs:0.0.1.RELEASE
+
+List Docker images
+docker images
+
+# List running containers
+docker container ls
+
+
+
+# Remove a Docker image
+first remove any containers
+docker rm 35a9383fe952 (Container id)
+docker image remove mysql
+docker image remove 3ea2933d6387
+
+# Remove all stopped containers
+docker container prune

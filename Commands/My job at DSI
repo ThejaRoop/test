@@ -1,0 +1,106 @@
+
+
+Busienss Systems Analyst/ Programmer
+
+My job at DSI
+
+system administration, automation, and scripting tasks.
+
+File Manipulation,Automation and Task Scheduling,Scripting
+
+ Writing Python, Bash scripts to automate repetitive tasks or perform complex operations in AWS environment.
+
+File Manipulation: Bash provides a wide range of commands and utilities for working with files and directories. You can create, copy, move, rename, delete files, and perform tasks such as searching, filtering, and processing files based on patterns or specific criteria.
+
+Automation and Task Scheduling: Bash scripts can be used to automate repetitive tasks, such as backups, system maintenance, log rotation
+
+-----------
+DevOps Engineer (CI/CD)
+
+Software and Services
+
+Our team runs the Build & Test CI pipeline for applications, which supports thousands of developers around the globe.develop applications and micro-services to build and improve our next-generation Build & Test CI pipeline.
+Key Qualifications
+Proficient in Python programming
+Experience working on Unix/Linux-based platforms
+Experience with DevOps tools such as Docker, Kubernetes
+Experience with software development processes such as building, unit testing, code analysis, release process, and code coverage
+Experience with CI/CD process and platforms e.g., Jenkins
+Computer Science fundamentals (object-oriented design, data structures, algorithm design, and complexity analysis)
+Strong analytical and problem-solving skills
+Excellent written and oral communication skills and ability to work with large development teams
+Experience developing in an object-oriented programming language such as  Java
+Description
+Develop and maintain Build & Test CI pipeline for Application development teams
+Collaborate across teams to improve the build, integration & release process
+Develop and maintain services and integrations for Apps Services Build & Test CI pipeline
+Maintain and administrate dynamic K8s/Linux/Unix clusters
+Ability to participate in an after-hours on-call rotation schedule
+
+Education & Experience
+
+
+Additional Requirements
+Experience developing Python-based micro-services using Django/Flask
+Proficient in compiled languages:Java
+Experience with GitHub development workflow
+Experience with Jenkins administration and scaling
+Experience scaling CI/CD systems and micro-services
+
+-------
+Development
+1. every commit trigger automated tests and automated code quality checks.
+2. Is your code continuously delivered to production?
+Do you use pair programming?
+Do you use TDD and BDD?
+Do you have a lot of re-usable modules?
+Can development teams self provision environments?
+How long does it take to deliver a quick fix to production?
+
+Test
+Are your tests full automated with high quality
+production like test data?
+Does your builds fail when your automated tests
+fail?
+Are your testing cycles small?
+Do you have automated NFR tests?
+
+Deployment
+Do you have Dev Prod Parity?
+Do you use A/B Testing?
+Do you use canary deployments?
+Can you deploy at the click of a button?
+Can you rollback at the click of a button?
+Can you provision and release infrastructure at
+the click of a button?
+Do you use IAC and version control your
+infrastructure?
+
+Teams and Processes
+Is the team looking to continuously improve?
+Does the team have all the skills it needs from
+Business, Development and Operations?
+Does the team track the key devops metrics and
+improve on them?
+Do you have the culture of take Local Discoveries
+and using them to make Global Improvements?
+
+DEVOPS TRANSFORMATIONS
+Leadership Buy-in is Critical
+Involves Upfront Costs
+Setup COEs to help teams
+Choose the right application and team
+
+Start Small
+Sharing Learings (Newsletters, Communication,
+COEs)
+Encourage People with Exploration and Automation
+Mindset
+Recognize DevOps Teams
+
+----
+Docker - Build deploy images
+Kubernetes - Container Orchestration
+Terraform - Server Provisioning
+Ansible - Configuration Management
+Jenkins, Azure Dev Ops - CI/CD with Pipelines

@@ -1,0 +1,55 @@
+Jenkins
+
+
+SonarQube installation
+
+pre-requisites:-
+---------------
+
+minimum 4 core machine 8gb memory 
+----------------------------------------
+
+apt update
+
+apt install openjdk-11-jdk -y
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.5.1.38104.zip
+
+sudo apt install unzip
+
+sudo unzip sonarqube-8.5.1.38104.zip
+
+sudo groupadd sonar
+
+sudo useradd -c "user to run SonarQube" -d /opt/sonarqube -g sonar sonar
+
+sudo chown sonar:sonar /home/ubuntu -R
+
+sudo nano sonarqube-8.5.1.38104/bin/linux-x86-64/sonar.sh
+
+## update the below line##
+
+RUN_AS_USER=sonar
+
+sudo su sonar
+
+cd sonarqube-8.5.1.38104/bin/linux-x86-64
+
+./sonar.sh start
+
+./sonar.sh status
+
+netstat -plnt
+
+generate Key
+
+92ae11c931011b8980e2f59e3969c71b56df0c00
+
+
+sonar.projectKey=praveen
+sonar.projectName=Java-Application
+sonar.projectVersion=4.0
+sonar.sources=/var/lib/jenkins/workspace/$JOB_NAME/src
+
+
+https://www.fosstechnix.com/install-sonarqube-on-ubuntu/

@@ -1,0 +1,8 @@
+install Apache Tomcat on Linux, you can follow these steps:
+
+sudo apt install default-jdk
+
+sudo apt install tomcat9 -y
+
+systemctl status tomcat9
+systemctl stop <service-name>
